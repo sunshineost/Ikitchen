@@ -66,6 +66,7 @@
         </activity>
         <activity android:name=".activity.CreateMenuActivity"/>
         <activity android:name=".activity.FriendsActivity"/>
+        <activity android:name=".activity.FindFriendActivity"/>
     </application>
 
 </manifest>
