@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_71"
+    android:id="@+id/user_rl"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/add_friend_head"
+        android:layout_width="@dimen/dimen_54"
+        android:layout_height="@dimen/dimen_54"
+        android:layout_margin="@dimen/dimen_8"
+        android:layout_marginRight="@dimen/dimen_5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/add_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/add_friend_head"
+        android:text="用户名"
+        android:textSize="@dimen/dimen_17"
+        android:layout_centerVertical="true"
+         />
+
+    <ImageView
+        android:id="@+id/add_friend_btn"
+        android:layout_width="@dimen/dimen_90"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:src="@drawable/add_friend_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_8"
+        android:layout_marginTop="@dimen/dimen_31"
+        android:layout_toLeftOf="@+id/add_follow"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:id="@+id/add_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_17"
+        android:layout_marginTop="@dimen/dimen_28"
+        android:text="加关注"
+        android:textColor="#c30013"
+        android:textSize="@dimen/dimen_14" />
+
+</RelativeLayout>
